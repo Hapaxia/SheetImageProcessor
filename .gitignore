@@ -21,6 +21,7 @@
 *.bak
 priv*.*
 priv_*.*
+_*.*
 
 licence for header.txt
 
@@ -31,6 +32,7 @@ licence for header.txt
 extlibs/
 backup/
 backup_*/
+bak*/
 test/
 test*/
 test_*/
