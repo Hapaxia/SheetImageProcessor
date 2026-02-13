@@ -16,3 +16,6 @@ Using Image's setPixel and getPixel automatically takes into account this format
 To ease import or export, a pointer to an array of bytes can be used.  
 For export, Image provides a pointer to std::uint8_t, containing the internal data. Note that this is in the format of the Image so make sure this is the format you expect (or convert it using Image).  
 For import, Image takes a pointer to std::uint8_t, which should contain the byte data. Note that this should be in the format that Image expects. If not, first convert Image to the format required (you can always convert back after import).
+
+> [!NOTE]
+> This library is a work-in-progress and, as such, may be subject to breaking interface changes and a possibility that a method works in a different way. Please note commits that describe which things are affected and how.
